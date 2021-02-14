@@ -46,3 +46,6 @@
   display: block;
   margin-bottom: 10px;
 }
+.fa-exclamation-circle {
+  color: rgb(255, 0, 0, 0.6);
+}
