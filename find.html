@@ -49,17 +49,45 @@
         <h6 class="recommended-friends__title">Recommended Friends</h6>
         <span>You have no recommended friends.</span>
       </div>
-      <div class="open=chat">
+      <div class="open-chat">
         <div class="open-chat__header">
           <h4>Open Chat</h4>
           <span
             >Go to Openchat Home<i class="fas fa-chevron-right fa-xs"></i
           ></span>
         </div>
+        <div class="open-chat__searchbar">
+          <input type="text" placeholder="# Search now..." />
+          <span><i class="fas fa-search fa-lg"></i></span>
+        </div>
         <div class="open-post">
           <div class="open-post__column">
             <h5 class="open-post__title">#Camping</h5>
-            <h6 class="open-post__hashtags">#camping#autocamping#camper</h6>
+            <h6 class="open-post__hashtags">#camping #autocamping #camper</h6>
+            <div class="open-post__members">
+              <img
+                src="https://avatars.githubusercontent.com/u/77833389?s=60&v=4"
+              />
+              <span class="open-post__members-count">1024 members</span>
+              <div class="divider"></div>
+              <span class="open-post__members-status">Active</span>
+            </div>
+          </div>
+          <div class="open-post__column">
+            <div class="open-post__photo">
+              <img src="image/camping.jpg" />
+              <div class="open-post__heart-count">
+                <i class="fas fa-heart fa-xs"></i> <span> 872</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="open-post">
+          <div class="open-post__column">
+            <h5 class="open-post__title">#Backpacking</h5>
+            <h6 class="open-post__hashtags">
+              #backpacking #hiking #backpacker
+            </h6>
             <div class="open-post__members">
               <img
                 src="https://avatars.githubusercontent.com/u/77833389?s=60&v=4"
@@ -71,11 +99,9 @@
           </div>
           <div class="open-post__column">
             <div class="open-post__photo">
-              <img
-                src="https://avatars.githubusercontent.com/u/77833389?s=60&v=4"
-              />
+              <img src="image/backpacking.jpg" />
               <div class="open-post__heart-count">
-                <i class="fas fa-heart fa-xs"></i> <span> 326</span>
+                <i class="fas fa-heart fa-xs"></i> <span> 569</span>
               </div>
             </div>
           </div>
@@ -107,6 +133,13 @@
         </li>
       </ul>
     </nav>
+    <div id="no-mobile">
+      <span
+        ><i class="fas fa-sad-cry"></i>Your screen is too big<i
+          class="fas fa-sad-cry"
+        ></i
+      ></span>
+    </div>
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
       crossorigin="anonymous"
